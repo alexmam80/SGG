@@ -1,0 +1,37 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-*.log
+pnpm-*.log
+
+# Env
+.env
+.env.*
+client/.env
+server/.env
+
+# Build
+dist/
+build/
+client/dist/
+client/build/
+
+# Cache
+.cache/
+.tmp/
+*.tsbuildinfo
+
+# Server runtime data
+server/data/
+server/uploads/
+server/*.sqlite
+server/*.db
+server/*.csv
+server/*.xml
+logs/
