@@ -1,0 +1,73 @@
+{
+  "nav": { "home":"PAGINA PRINCIPALĂ", "contact":"CONTACTE", "about":"DESPRE NOI" },
+
+  "hero": { "title":"Ai grijă de natură", "subtitle":"Începeți să reciclați astăzi și ajutați-ne să protejăm mediul." },
+
+  "services": { "bannerTitle":"SmartGreenGroup", "bannerSub":"Oferim mai multe servicii care te ajută în procesul de reciclare" },
+
+  "features": {
+    "ultraTitle":"ULTRA RESPONSIVE", "ultraText":"Design optimizat pentru desktop, tabletă și mobil.",
+    "demoTitle":"ONE CLICK DEMO INSTALL", "demoText":"Inițializare rapidă a conținutului demonstrativ.",
+    "builderTitle":"PAGE BUILDER", "builderText":"Componente modulare reutilizabile în React."
+  },
+
+  "ach": { "sub":"UNELE DINTRE PROIECTELE FINALIZATE RECENT", "title":"ULTIMILE NOASTRE REALIZARI" },
+
+  "counters": {
+    "items":[
+      {"n":565,"label":"ARBORI SALVAȚI"},
+      {"n":225,"label":"MAȘINI RECICLATE"},
+      {"n":115,"label":"COPII INSTRUIȚI"},
+      {"n":136,"label":"TONE RECICLATE"}
+    ]
+  },
+
+  "improve": {
+    "title":"CUM SĂ ÎMBUNĂTĂȚIM PROCESUL NOSTRU DE RECICLARE",
+    "p1":"Reciclarea este un proces de transformare a materialelor (deșeuri) în produse noi pentru a preveni risipa de materiale potențial utile, a reduce consumul de materii prime proaspete, a reduce consumul de energie, a reduce poluarea aerului (prin incinerare) și poluarea apei (prin depozitarea în gropile de gunoi) prin reducerea necesității de eliminare „convențională” a deșeurilor și a reduce emisiile de gaze cu efect de seră în comparație cu producția de plastic. Reciclarea este o componentă cheie a reducerii deșeurilor moderne și este a treia componentă a ierarhiei deșeurilor „Reduce, Reutilizează și Reciclează”.",
+    "p2":"Materialele reciclabile includ multe tipuri de sticlă, hârtie, metal, plastic, textile și electronice. Compostarea sau alte tipuri de reutilizare a deșeurilor biodegradabile - cum ar fi deșeurile alimentare sau de grădină - este, de asemenea, considerată reciclare.[2] Materialele care urmează să fie reciclate sunt fie aduse la un centru de colectare, fie ridicate de la marginea trotuarului, apoi sortate, curățate și reprocesate în materiale noi destinate producției."
+  },
+
+  "clients": {
+    "p":"Aceasta este o listă de companii care deja ne au încredere în procesul lor de reciclare. Alăturați-vă lor."
+  },
+
+  "recycle": {
+    "sub":"CITEȘTE DESPRE PROCESELE DE RECICLARE PENTRU ANUMITE GRUPE",
+    "title":"CE ȘI CUM SE RECICLEAZĂ",
+    "items":[
+      {"title":"RECICLARE HÂRTIE","muted":"CE SĂ FACEȚI CU HÂRTIA"},
+      {"title":"ARTICOLE ELECTRICE","muted":"CE SE FACE CU ARTICOLELE ELECTRICICE"},
+      {"title":"RECICLAREA COMPOSTULUI","muted":"CE SĂ FACEȚI CU COMPOSTUL"},
+      {"title":"RECICLARE HAINE","muted":"CE SĂ FACEȚI CU HAINELE"}
+    ],
+    "readMore":"Citește mai mult"
+  },
+
+  "cta": { "title":"ÎNCEPEȚI SĂ RECICLAȚI ACUM", "text":"Reciclarea este procesul de curatare a planetei Pamant.", "btn":"Contactează-ne acum" },
+
+  "contact": {
+    "title":"Contacte", "questions":"Întrebări?",
+    "name":"Nume și prenume", "email":"Email", "phone":"Telefon", "message":"Mesaj",
+    "send":"Trimite"
+  },
+
+  "about": { 
+    "title":"Despre Noi",
+    "paras": [
+      "Sistemul colectiv Asociația Obștească „Smart Green Group” deține autorizația de mediu nr. AM22112504 pentru implementarea responsabilității extinse a producătorului privind gestionarea deșeurilor generate din produsele supuse reglementărilor de responsabilitate extinsă a producătorilor (echipamente electrice și electronice (EEE)), reglementate de Hotărîrea Guvernului nr. 212/2018 pentru aprobarea Regulamentului privind deșeurile de echipamente electrice și electronice.",
+      "Prin transferul de responsabilitate extinsă a producătorului, A.O. „Smart Green Group” preia obligațiile legale ale producătorilor de echipamente electrice și electronice, baterii și acumulatori și ambalaje cu scopul îndeplinirii țintelor anuale de colectare și reciclare a deșeurilor de echipamente electrice și electronice (DEEE), deșeurilor de baterii și acumulatori (DBA) și a deșeurilor de ambalaje (DAM).",
+      "Sistemul colectiv A.O. „Smart Green Group” asigură stabilitatea și trasabilitatea proceselor de gestionare a DEEE, DBA, DAM, care ar fi: colectare, transportarea, depozitarea, tratarea, reciclarea și eliminarea nepoluantă, prin intermediul sau și a partenerilor autorizați în domeniul reciclării."
+    ] 
+    },
+
+ "footer": {
+  "aboutTitle": "DESPRE NOI",
+  "addressLabel": "Adresa:",
+  "addressLinkText": "MUN. CHIȘINĂU, SEC. BUIUCANI, str. Ion Creangă 6V",
+  "phoneLabel": "Telefon:",
+  "emailLabel": "Email:",
+  "copy": "SmartGreenGroup ©2019 - {{year}}",
+  "powered": "| Powered by Alex"
+}
+}
