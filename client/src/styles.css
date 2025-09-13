@@ -259,3 +259,76 @@ img{max-width:100%;display:block}
   .top-ribbon .inner{ flex-direction: column; gap: 8px; padding: 8px 0; }
   .mini-sep{ display: none; }
 }
+
+
+
+
+
+/* Ribbon de sus */
+.top-ribbon {
+  background: #9bb63b;         /* verdele tău */
+  color: #fff;                  /* text + icoane albe (currentColor) */
+  font-size: 14px;
+}
+
+.top-ribbon .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 0;
+}
+
+.top-ribbon .left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.top-ribbon .mini-link {
+  color: #fff;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1;
+  transition: opacity .2s ease;
+}
+
+.top-ribbon .mini-link:hover { opacity: .85; }
+
+.top-ribbon .mini-sep {
+  width: 1px;
+  height: 18px;
+  background: rgba(255,255,255,.35);
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.top-ribbon .socials {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.top-ribbon .socials a {
+  color: #fff;                             /* face SVG-urile albe (currentColor) */
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  background: rgba(255,255,255,.15);
+  text-decoration: none;
+  transition: background-color .2s ease, transform .1s ease;
+}
+
+.top-ribbon .socials a:hover {
+  background: rgba(255,255,255,.28);
+  transform: translateY(-1px);
+}
+
+/* Asigurăm randare curată pentru SVG-uri */
+.top-ribbon svg { display: block; }
