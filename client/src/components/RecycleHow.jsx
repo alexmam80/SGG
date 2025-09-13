@@ -6,10 +6,10 @@ export default function RecycleHow(){
   const { t } = useTranslation()
   const items = t('recycle.items', { returnObjects: true })
   const imgs = [
-    '/public/1.jpg',
-    '/public/2.jpg',
-    '/public/3.jpg',
-    '/public/4.jpg'
+    '/SGG/1.jpg',
+    '/SGG/2.jpg',
+    '/SGG/3.jpg',
+    '/SGG/4.jpg'
   ]
     return (
     <section className="section" style={{background:'#f7f7f7'}}>
