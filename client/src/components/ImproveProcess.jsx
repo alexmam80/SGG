@@ -5,7 +5,7 @@ export default function ImproveProcess(){
   return (
     <section className="section">
       <div className="container process">
-        <img className="bulb" src="/big-bulb-icon1.png" alt="" />
+        <img className="bulb" src="/SGG/big-bulb-icon1.png" alt="" />
         <div>
           <h2>{t('improve.title')}</h2>
           <p>{t('improve.p1')}</p>
