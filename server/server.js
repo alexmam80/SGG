@@ -17,7 +17,7 @@ const DATA_DIR = path.resolve(__dirname, process.env.DATA_DIR || 'data')
 
 fs.mkdirSync(DATA_DIR, { recursive: true })
 
-app.use(cors({ origin: (process.env.CORS_ORIGIN || 'http://localhost:5173').split(',') }))
+app.use(cors())
 app.use(express.json())
 
 // --- DB init ---
