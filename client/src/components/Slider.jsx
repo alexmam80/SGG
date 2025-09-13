@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 const slides = [
-  {img:'public/ca-9.jpg'},
+  {img:'/SGG/ca-9.jpg'},
   {img:'public/thinkGreen.jpg'},
   {img:'public/vite.svg'}
 ]
