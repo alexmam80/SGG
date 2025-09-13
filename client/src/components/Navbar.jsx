@@ -9,7 +9,7 @@ export default function Navbar(){
     <div className="navbar">
       <div className="container inner">
         <Link to="/" className="logo">
-          <img src="/public/Whitelogo.png" alt="SmartGreenGroup" className="mark" />
+          <img src="/SGG/Whitelogo.png" alt="SmartGreenGroup" className="mark" />
         </Link>
 
         <nav className="nav">
