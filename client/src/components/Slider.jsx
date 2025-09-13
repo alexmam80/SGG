@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next'
 
 const slides = [
   {img:'/SGG/ca-9.jpg'},
-  {img:'public/thinkGreen.jpg'},
-  {img:'public/vite.svg'}
+  {img:'/thinkGreen.jpg'},
+  {img:'/public/vite.svg'}
 ]
 
 export default function Slider(){
