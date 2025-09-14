@@ -44,6 +44,20 @@
     "readMore":"Citește mai mult"
   },
 
+  "recycle": {
+    "readMore": "Citește mai mult",
+    "readLess": "Mai puțin",
+    "more": {
+      "paper": "Hârtia se colectează curată și uscată. Evită hârtia plastifiată sau cerată. Ziarele, caietele, cartoanele de ambalaj (fără resturi alimentare) sunt ideale pentru reciclare.",
+      "electrical": "Articolele electrice și electronice conțin componente periculoase. Predă-le doar în punctele autorizate pentru DEEE, unde sunt demontate și reciclate corect.",
+      "compost": "Compostarea transformă resturile vegetale în îngrășământ natural. Depozitează separat frunze, iarbă, crengi tocate și resturi alimentare vegetale.",
+      "clothes": "Hainele curate și încă purtabile pot fi donate. Textilele uzate se predau la puncte de colectare specializate pentru a fi sortate sau valorificate."
+    }
+  }
+
+
+
+  
   "cta": { "title":"ÎNCEPEȚI SĂ RECICLAȚI ACUM", "text":"Reciclarea este procesul de curatare a planetei Pamant.", "btn":"Contactează-ne acum" },
 
   "contact": {
