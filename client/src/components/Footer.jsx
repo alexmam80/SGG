@@ -14,7 +14,7 @@ export default function Footer(){
               <span className="brand-ico"></span>
               <span style={{fontWeight:800,fontSize:26}}>SmartGreenGroup</span>
             </div>
-            <a href="/"><img src="/SGG/f-logo.jpg" alt="eco" style={{width:240,borderRadius:4,marginTop:10}}/></a>
+            <a href="#/"><img src="/SGG/f-logo.jpg" alt="eco" style={{width:240,borderRadius:4,marginTop:10}}/></a>
           </div>
 
           <div>
