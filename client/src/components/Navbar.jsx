@@ -37,22 +37,27 @@ export default function Navbar(){
     <div className={`navbar ${open ? 'open' : ''}`}>
       <div className="container inner">
 
-        {/* LOGO */}
-        <Link to="/" className="logo">
-          {/* dacă Whitelogo.png e în public/, BASE_URL e cel mai sigur pe Pages */}
-          <img src={`${import.meta.env.BASE_URL}Whitelogo.png`} alt="SmartGreenGroup" className="mark" />
-        </Link>
+        {/* ROW: LOGO + TOGGLE (stau într-un rând pe mobil) */}
+        <div className="brand-row">
+          <Link to="/" className="logo">
+            {/* dacă e în public/, folosește BASE_URL pentru Pages */}
+            <img
+              src={`${import.meta.env.BASE_URL}Whitelogo.png`}
+              alt="SmartGreenGroup"
+              className="mark"
+            />
+          </Link>
 
-        {/* TOGGLE (vizibil doar pe mobil) */}
-        <button
-          className="nav-toggle"
-          type="button"
-          aria-label={open ? 'Închide meniul' : 'Deschide meniul'}
-          aria-expanded={open}
-          onClick={() => setOpen(v => !v)}
-        >
-          <span/><span/><span/>
-        </button>
+          <button
+            className="nav-toggle"
+            type="button"
+            aria-label={open ? 'Închide meniul' : 'Deschide meniul'}
+            aria-expanded={open}
+            onClick={() => setOpen(v => !v)}
+          >
+            <span/><span/><span/>
+          </button>
+        </div>
 
         {/* NAV */}
         <nav className="nav" onClick={() => setOpen(false)}>
@@ -61,7 +66,7 @@ export default function Navbar(){
           <NavLink to="/despre-noi" className={({isActive})=>isActive?'active':''}>{t('nav.about')}</NavLink>
         </nav>
 
-        {/* Language switcher: îl lăsăm neschimbat (doar un wrapper pentru stil) */}
+        {/* Language switcher îl lăsăm neschimbat */}
         <div className="lang-switch">
           <LanguageSwitcher/>
         </div>
@@ -69,4 +74,3 @@ export default function Navbar(){
     </div>
   )
 }
-
