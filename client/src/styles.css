@@ -56,12 +56,7 @@ img{max-width:100%;display:block}
   display:flex;flex-direction:column;align-items:center;justify-content:center;color:#e6e6e6;border:1px solid rgba(255,255,255,.18)}
 @media (max-width:980px){
   .counter{height: 150px; width: 150px;flex-direction:row; justify-content: space-around;}
-      .container {
-        display: flex !important;
-        flex-direction: row!important;
-        height: auto !important;
-        justify-content: space-evenly;
-    }
+  .counters .container {display: flex !important; flex-direction: row!important; height: auto !important; justify-content: space-evenly;}
 }
 .counter .num{font-size:48px;font-weight:800}
 .counter .label{margin-top:6px;letter-spacing:.8px;font-size:14px;text-transform:uppercase;opacity:.9}
