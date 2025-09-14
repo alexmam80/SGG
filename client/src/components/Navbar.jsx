@@ -39,14 +39,14 @@ export default function Navbar(){
 
         {/* ROW: LOGO + TOGGLE (stau într-un rând pe mobil) */}
         <div className="brand-row">
-          <Link to="/" className="logo">
+          <a href="/"><Link to="/" className="logo">
             {/* dacă e în public/, folosește BASE_URL pentru Pages */}
             <img
               src={`${import.meta.env.BASE_URL}Whitelogo.png`}
               alt="SmartGreenGroup"
               className="mark"
             />
-          </Link>
+          </Link></a>
 
           <button
             className="nav-toggle"
