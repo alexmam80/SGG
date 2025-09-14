@@ -76,6 +76,11 @@ img{max-width:100%;display:block}
 .process p{line-height:1.7;color:#555}
 .bulb{max-width:420px}
 .hr{width:120px;height:6px;background:var(--green);margin:18px auto;border-radius:999px}
+@media (max-width:980px){
+  .process h2 {
+    font-size: 24px;
+  }
+}
 
 /* what & how to recycle */
 .recycle-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}
