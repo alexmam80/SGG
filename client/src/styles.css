@@ -90,6 +90,13 @@ img{max-width:100%;display:block}
 .recycle-card .muted{color:#9aa0a6;text-transform:uppercase;font-size:14px}
 .btn{display:inline-block;padding:14px 24px;border:0;background:var(--green);color:#fff;border-radius:3px;font-weight:700;letter-spacing:.5px;cursor:pointer}
 .btn.outline{background:#444}
+@media (max-width:980px){
+  .recycle-card h3 {
+    font-size: 19px;
+    margin: 16px 0 4px;
+    text-transform: uppercase;
+}
+}
 
 /* CTA */
 .cta{position:relative;color:#fff;text-align:center;    background: #fff url(/quote-background-eco.jpg) 50% 0;
