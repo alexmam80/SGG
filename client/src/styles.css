@@ -376,82 +376,65 @@ img{max-width:100%;display:block}
 
 
 
-/* ===== NAVBAR – Desktop ===== */
-.navbar {
-  background:#2b2b2b;
-  color:#fff;
-  position: sticky;
-  top: 0;
-  z-index: 50;
-}
-.navbar .inner{
+/* ===== Bază ===== */
+.navbar { background:#2b2b2b; color:#fff; position:sticky; top:0; z-index:50; }
+.navbar .inner { padding:16px 0; }
+
+/* LOGO + TOGGLE mereu aliniate corect în brand-row */
+.navbar .brand-row{
   display:flex;
   align-items:center;
-  gap:24px;
-  padding:16px 0;
+  justify-content:space-between;   /* EXACT ce ne trebuie pe mobil */
+  gap:16px;
 }
-.navbar .logo img{
-  height:48px;           /* ajustează după preferințe */
-  display:block;
-}
+.navbar .logo{ display:inline-flex; align-items:center; margin:0; }
+.navbar .logo img{ height:48px; display:block; }
+
+/* Meniul – desktop */
 .navbar .nav{
   display:flex;
   align-items:center;
   gap:28px;
-  margin-left:auto;      /* împinge meniul spre dreapta pe desktop */
+  margin-top:12px;                 /* mică separare sub brand-row */
 }
-.navbar .nav a{
-  color:#fff;
-  text-decoration:none;
-  font-weight:700;
-}
+.navbar .nav a{ color:#fff; text-decoration:none; font-weight:700; }
 .navbar .nav a.active{ color:#9bb63b; }
 
-/* buton hamburger – ascuns pe desktop */
+.navbar .lang-switch{ margin-top:10px; }
+
+/* Buton hamburger */
 .navbar .nav-toggle{
-  display:none;
   width:42px; height:42px;
   border:1px solid rgba(255,255,255,.35);
   background:transparent;
   border-radius:10px;
-  padding:0;
-  cursor:pointer;
-  align-items:center; justify-content:center;
+  padding:0; cursor:pointer;
+  display:inline-flex; align-items:center; justify-content:center;
   flex-direction:column; gap:5px;
 }
-.navbar .nav-toggle span{
-  width:22px; height:2px; background:#fff; display:block;
+.navbar .nav-toggle span{ width:22px; height:2px; background:#fff; display:block; }
+
+/* ===== Desktop ===== */
+@media (min-width: 901px){
+  .navbar .inner{ display:flex; align-items:center; gap:24px; }
+  .navbar .brand-row{ flex:0 0 auto; gap:24px; }
+  .navbar .nav-toggle{ display:none; }            /* ascundem burgerul */
+  .navbar .nav{ margin-left:auto; margin-top:0; } /* meniul la dreapta */
+  .navbar .lang-switch{ margin-left:16px; margin-top:0; }
 }
 
-/* ===== NAVBAR – Mobile ===== */
+/* ===== Mobile ===== */
 @media (max-width: 900px){
-  /* containerul poate trece pe mai multe rânduri */
-  .navbar .inner{ flex-wrap: wrap; }
-
-  /* LOGO + TOGGLE pe aceeași linie */
-  .navbar .logo{ order:1; }
-  .navbar .nav-toggle{ display:inline-flex; margin-left:auto; order:2; }
-
-  /* meniul ascuns implicit pe mobil; apare sub bară când e .open */
-  .navbar .nav{
-    order:3;
-    display:none;
-    flex-direction:column;
-    width:100%;
-    background:#2b2b2b;
-    border-radius:10px;
-    padding:8px 0;
-    margin-top:10px;
-  }
+  /* Meniul e ascuns implicit, apare când .navbar are .open */
+  .navbar .nav{ display:none; flex-direction:column; background:#2b2b2b; border-radius:10px; padding:8px 0; }
   .navbar.open .nav{ display:block; }
 
   .navbar .nav a{
-    display:block;
-    padding:12px 14px;
+    display:block; padding:12px 14px;
     border-top:1px solid rgba(255,255,255,.1);
   }
   .navbar .nav a:first-child{ border-top:none; }
 
-  /* LanguageSwitcher îl lăsăm neschimbat – doar îi dăm locul lui, sub meniu */
-  .navbar .lang-switch{ order:4; width:100%; margin-top:8px; }
+  /* Language switcher rămâne separat dedesubt */
+  .navbar .lang-switch{ }
 }
