@@ -95,7 +95,7 @@ img{max-width:100%;display:block}
     background-attachment: fixed !important;
     position: static;
     background-size: auto !important;}
-.cta h2{font-size:72px;letter-spacing:2px;margin:0 0 8px;text-transform:uppercase}
+.cta h2{font-size:36px;letter-spacing:2px;margin:0 0 8px;text-transform:uppercase}
 .cta p{opacity:.9;margin:0 0 18px}
 
 /* clients */
