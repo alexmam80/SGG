@@ -153,7 +153,7 @@ img{max-width:100%;display:block}
 }
 
 #h2-archives {
-  justify-self: center;
+  justify-self: center!important;
 }
 
 .counters {
