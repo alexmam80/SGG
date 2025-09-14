@@ -13,7 +13,7 @@ export default function CtaBanner(){
 			<a href="https://smartgreengroup.md"><img src="/SGG/Whitelogo.png" alt="SmartGreenGroup - Sistemul colectiv Asociația Obștească" /></a>
 		</div>
         <div className="cta-buttons">
-            <a className="btn outline" href="#/contacte">{t('cta.btn')}</a>
+            <a className="btn outline" href="SGG/#/contacte">{t('cta.btn')}</a>
         </div>
       </div>
     </section>
