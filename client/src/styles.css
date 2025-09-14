@@ -63,7 +63,8 @@ img{max-width:100%;display:block}
 @media (max-width:480px){
     .counter {height: 50px; width: 50px; flex-direction: column; display: flex; align-items: center;justify-content: center;}
     .counter .num {font-size: 13px!important; font-weight: 500!important;}
-      .counter .label {font-size: 4px !important;}
+    .counter .label {font-size: 4px !important;}
+  .counters {padding: 50px 0;}
 }
 .counter .num{font-size:48px;font-weight:800}
 .counter .label{margin-top:6px;letter-spacing:.8px;font-size:14px;text-transform:uppercase;opacity:.9}
