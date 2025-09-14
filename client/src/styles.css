@@ -407,8 +407,6 @@ img{max-width:100%;display:block}
 }
 .navbar .nav a.active{ color:#9bb63b; }
 
-.navbar .lang-switch{ margin-left: 16px; }
-
 /* buton hamburger – ascuns pe desktop */
 .navbar .nav-toggle{
   display:none;
