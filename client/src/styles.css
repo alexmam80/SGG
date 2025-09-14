@@ -58,6 +58,24 @@ img{max-width:100%;display:block}
   .counter{height: 150px; width: 150px;flex-direction:row; justify-content: space-around;}
   .counters .container {display: flex !important; flex-direction: row!important; height: auto !important; justify-content: space-evenly;}
 }
+@media (max-width:620px){
+  .counter .label {
+    margin-top: 6px;
+    letter-spacing: .8px;
+    font-size: 7px;
+    text-transform: uppercase;
+    opacity: .9;
+}
+  .counter .num {
+    font-size: 20px;
+    font-weight: 500;
+}
+  .counter {
+    height: 94px;
+    width: 94px;
+}
+  
+}
 .counter .num{font-size:48px;font-weight:800}
 .counter .label{margin-top:6px;letter-spacing:.8px;font-size:14px;text-transform:uppercase;opacity:.9}
 
