@@ -139,7 +139,7 @@ img{max-width:100%;display:block}
 @media (max-width:620px){
   .recycle-grid{grid-template-columns:1fr}
   .clients-row{grid-template-columns:1fr 1fr 1fr}
-  .cta h2{font-size:46px}
+  .cta h2{font-size:24px}
   .slide .caption h1{font-size:36px}
   .banner .big{font-size:32px;font-weight:900;letter-spacing:3px}
 }
