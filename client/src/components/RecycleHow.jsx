@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 import { useTranslation } from 'react-i18next'
 
 
@@ -31,4 +31,55 @@ export default function RecycleHow(){
       </div>
     </section>
   )
+}
+*/
+
+
+
+import React from "react";
+import { useTranslation } from "react-i18next";
+import RecycleCard from "./RecycleCard";
+
+export default function Recycle() {
+  const { t } = useTranslation();
+  const BASE = import.meta.env.BASE_URL || "/";
+
+  // Pregătim cardurile — titlurile/muted vin din i18n,
+  // iar textele suplimentare vin din 'recycle.more.*'
+  const cards = [
+    {
+      img: `${BASE}img/recycle-paper.jpg`,
+      title: t("recycle.items.0.title"),
+      muted: t("recycle.items.0.muted"),
+      moreText: t("recycle.more.paper"),
+    },
+    {
+      img: `${BASE}img/recycle-electric.jpg`,
+      title: t("recycle.items.1.title"),
+      muted: t("recycle.items.1.muted"),
+      moreText: t("recycle.more.electrical"),
+    },
+    {
+      img: `${BASE}img/recycle-compost.jpg`,
+      title: t("recycle.items.2.title"),
+      muted: t("recycle.items.2.muted"),
+      moreText: t("recycle.more.compost"),
+    },
+    {
+      img: `${BASE}img/recycle-clothes.jpg`,
+      title: t("recycle.items.3.title"),
+      muted: t("recycle.items.3.muted"),
+      moreText: t("recycle.more.clothes"),
+    },
+  ];
+
+  return (
+    <section className="section">
+      <div className="container recycle-grid">
+        {cards.map((c, i) => (
+          <RecycleCard key={i} {...c} />
+        ))}
+      </div>
+    </section>
+  );
 }
