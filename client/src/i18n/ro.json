@@ -32,17 +32,7 @@
     "p":"Aceasta este o listă de companii care deja ne au încredere în procesul lor de reciclare. Alăturați-vă lor."
   },
 
-  "recycle": {
-    "sub":"CITEȘTE DESPRE PROCESELE DE RECICLARE PENTRU ANUMITE GRUPE",
-    "title":"CE ȘI CUM SE RECICLEAZĂ",
-    "items":[
-      {"title":"RECICLARE HÂRTIE","muted":"CE SĂ FACEȚI CU HÂRTIA"},
-      {"title":"ARTICOLE ELECTRICE","muted":"CE SE FACE CU ARTICOLELE ELECTRICICE"},
-      {"title":"RECICLAREA COMPOSTULUI","muted":"CE SĂ FACEȚI CU COMPOSTUL"},
-      {"title":"RECICLARE HAINE","muted":"CE SĂ FACEȚI CU HAINELE"}
-    ],
-    "readMore":"Citește mai mult"
-  },
+
 
   "recycle": {
     "readMore": "Citește mai mult",
